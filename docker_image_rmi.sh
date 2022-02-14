@@ -1,0 +1,1 @@
+docker rmi $(docker images | grep docker | awk '{ print $3}')
